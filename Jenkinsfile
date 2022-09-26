@@ -13,7 +13,7 @@ pipeline {
     }        
     stage('Install dependencies') {
       steps {
-        bat 'npm --version'
+        bat 'node --version'
       }
     }     
     stage('Test') {
