@@ -13,12 +13,12 @@ pipeline {
     }        
     stage('Install dependencies') {
       steps {
-        sh 'npm install'
+        echo 'Installing dependencies...............'
       }
     }     
     stage('Test') {
       steps {
-         sh 'npx directus start'
+         echo 'project Running...............'
       }
     }             
   }
