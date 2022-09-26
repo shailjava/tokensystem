@@ -14,7 +14,7 @@ pipeline {
     stage('Install dependencies') {
       steps {
         bat 'node --version'
-        bat 'C:\Users\slskm\AppData\Roaming\npm\npm --version'
+        bat 'npm --version'
       }
     }     
     stage('Test') {
